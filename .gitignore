@@ -1,0 +1,9 @@
+artifacts/*
+data/*
+notebooks/*
+.env
+.envrc
+.python-version
+bank_fraud.egg-info/*
+*.txt
+PKG-INFO
