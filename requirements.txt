@@ -1,5 +1,24 @@
-setuptools
+# === Core libraries ===
 numpy
-scikit-learn
 pandas
-notebook
+tqdm
+
+# === Visualization ===
+matplotlib
+seaborn
+plotly
+
+# === Preprocessing & Machine Learning ===
+scikit-learn
+
+# === Statistical Tests & Modeling ===
+scipy
+statsmodels
+
+# === Geographic Libraries ===
+geopandas
+geopy
+shapely
+us
+
+

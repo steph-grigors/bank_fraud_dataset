@@ -1,9 +1,51 @@
-artifacts/*
-data/*
-notebooks/*
+# ================================
+# Python
+# ================================
+__pycache__/
+*.egg-info/
+*.egg
+
+# ================================
+# Environments
+# ================================
 .env
 .envrc
+env/
+.ipynb_checkpoints/
 .python-version
-bank_fraud.egg-info/*
-*.txt
-PKG-INFO
+
+# ================================
+# Jupyter & VSCode
+# ================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+.vscode/
+*.DS_Store
+
+# ================================
+# Build & Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# ================================
+# Data & Artifacts
+# ================================
+# Raw and intermediate data files
+data/*.csv
+data/tmp/
+artifacts/
+results/
+
+# Keep only specific sample data files
+!us_cities.csv  # explicitly keep your reference dataset
+
+# ================================
+# Notebooks (outputs & temp files)
+# ================================
+notebooks/*
+!notebooks/fraud_detection.ipynb
+notebooks/.ipynb_checkpoints/
