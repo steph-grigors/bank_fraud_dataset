@@ -40,9 +40,6 @@ data/tmp/
 artifacts/
 results/
 
-# Keep only specific sample data files
-!us_cities.csv  # explicitly keep your reference dataset
-
 # ================================
 # Notebooks (outputs & temp files)
 # ================================
