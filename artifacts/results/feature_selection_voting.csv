@@ -1,0 +1,33 @@
+Feature,Votes,Methods
+CustomerAge,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+TransactionDuration,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+LoginAttempts,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+AccountBalance,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+day_of_week,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+hour,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+TimeBetweenTransactions,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+day,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+max_location_distance_km,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+amount_squared,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+Lat,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+Lon,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+customer_max_amount,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+customer_min_amount,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+customer_avg_amount,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+customer_tx_count,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+is_first_time_merchant,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+time_since_last_tx,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+merchant_avg_amount,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+merchant_std_amount,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+amount_deviation_from_mean,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+customer_median_amount,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+merchant_tx_count,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+is_max_transaction,5,"High_Variance, Low_Correlation, Top_MI, Top_F_Score, RFE_Selected"
+amount_sqrt,1,High_Variance
+amount_log,1,High_Variance
+TransactionAmount,1,High_Variance
+month,1,High_Variance
+amount_ratio_to_max,1,High_Variance
+customer_std_amount,1,High_Variance
+customer_merchant_count,1,High_Variance
+amount_x_hour,1,High_Variance
