@@ -37,8 +37,7 @@ dist/
 # Raw and intermediate data files
 data/*.csv
 data/tmp/
-artifacts/
-results/
+
 
 # ================================
 # Notebooks (outputs & temp files)
